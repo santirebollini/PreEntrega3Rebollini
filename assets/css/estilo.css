@@ -1,0 +1,126 @@
+*{margin: 0; padding: 0;}
+
+ html{scroll-behavior: smooth;}
+
+.logoBG{
+    background-image: linear-gradient( to left, blue, lightblue);}
+
+.nav{
+    background-color: blue; 
+    padding: 10px; 
+    justify-content: flex-end;}
+
+.paddingTB{
+    padding-top: 50px; 
+    padding-bottom: 50px;}
+
+.container.fluid{
+    padding-left: 0; 
+    padding-right: 0;}
+
+.titulo{
+    text-align: center; 
+    text-decoration: underline; 
+    padding-bottom: 20px; 
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;}
+
+.paddingIMG{
+    padding-top: 80px;}
+
+body{
+    background-image: linear-gradient(to top, lightblue, white);}
+
+/*CLIENTES*/
+.listaClientes{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;}
+
+.imgClientes{
+    padding-top: 50px;
+    justify-content: center;
+}
+
+/*PRODUCTOS*/
+.tituloProductos{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;}
+
+.imgCarbonatos{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;}
+.imgCuarzos{
+    padding-top: 20px;
+    padding-left: 40px;}
+.imgTalcos{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;}
+
+/*SERVICIOS*/
+.transporte{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;}
+.depositos{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;}
+.cargDescarg{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;}
+
+
+
+/*GALERIA*/
+.sliderGaleria{
+    display: flex;
+    justify-content: center;}
+
+/*CONTACTO*/
+.detalleContacto{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 50px;}
+
+.detalleContacto h3{
+    padding-bottom: 30px;
+}
+.encabezadoFormulario{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 10x;}
+.detalleFormulario{
+    padding-left: 20px;
+    padding-top: 30px;}
+.ubicacionGoogle{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/*FOOTER*/
+.footerBG{background-image: radial-gradient(circle, white, blue);}
+.footerCopy{transition: 1s;}
+.footerCopy:hover{transform: scale(1.5,1.5); cursor: pointer;}
+
+.ico_footer{transition:1s;}
+.ico_footer:hover{transform:scale(2,2);cursor: pointer;}
+footer div h6{padding-bottom: 15px;}
+footer div p{margin-bottom: 2px;}
+
+.redesSociales{
+    display: flex;
+    justify-content: center;}
+
+
+
